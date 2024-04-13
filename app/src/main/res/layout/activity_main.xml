@@ -16,6 +16,12 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
         <ImageView
             android:layout_width="160dp"
             android:layout_height="160dp"
@@ -80,12 +86,7 @@
                 android:layout_margin="16dp"
                 android:id="@+id/google_btn"
                 android:src="@drawable/img"/>
-            <ImageView
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:layout_margin="16dp"
-                android:id="@+id/facebook_btn"
-                android:src="@drawable/img_1"/>
+
 
         </LinearLayout>
 
